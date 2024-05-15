@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="cards">
+        <div id="layer1">
+            <button id="signupButton" onclick="SignupBtn()">Signup</button>
+            <button id="signinButton" onclick="SigninBtn()">Signin</button>
+        </div>
+        <div id="layer2">
+            <h1>Login</h1>
+            <div id="layer2-1">
+                <label>UserId</label>
+                <input id="userName" type="text" placeholder="Enter Email or Phonenumber">
+            </div>
+            <div  id="layer2-1">
+                <label>password</label>
+                <input id="password" type="text" placeholder="Enter the password">
+            </div>
+            <div id = "layer2-2">
+                <div>
+                    <input type="checkbox" onclick="changedCheckBoxtoremember()">
+                    <span>Remember me</span>
+                </div>
+                <a href="#">Forgot password?</a>
+            </div>
+            <button id="loginbtn" onclick="loginbtn()">login</button>
+        </div>
+        <div id="layer3">
+            <h1>Signup</h1>
+            <div id="layer3-1">
+                <label>First Name</label>
+                <input id="signupFirstName" type="text" placeholder="Enter your First Name">    
+            </div>
+            <div id="layer3-1">
+                <label>Last name</label>
+                <input id="signuplastName" type="text" placeholder="Enter your last Name">
+                
+            </div>
+            <div id="layer3-1">
+                <label>Email</label>
+                <input id="signupEmail" type="text" placeholder="Enter the EmailID">
+            </div>
+            <div id="layer3-1">
+                <label>Phone Number</label>
+                <input id="signupnumber" type="text" placeholder="Enter the phone Number">
+            </div>
+            <div id="layer3-1">
+                <label>password</label>
+                <input id="signuppassword" type="text" placeholder="enter the password">
+            </div>
+            <button id="signupbtn" onclick="signupall()"> SignUp</button>
+        </div>
+        <span id="msg"></span>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,100 @@
+body{
+    width: 100%;
+    height: 600px;
+    margin: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blanchedalmond;
+}
+#cards{
+    margin: auto;
+    width: 50%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+}
+#layer1{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+#signupButton, #signinButton{
+    background-color: red;
+    color: white;
+    width: 49%;
+    height: 100%;
+    font-size: large;
+    font-weight: bold;
+    border: 5px solid white;
+}
+#layer3{
+    display: none;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url("./images/images.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+#layer2{
+    background-image: url("./images/img1.avif");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+#layer2, #layer3{
+    flex-direction: column;
+}
+#layer2 h1, #layer3 h1{
+    color: white;
+    text-align: center;
+}
+#layer2 button, #layer3 button{
+    background-color: skyblue;
+    width: 50%;
+    height: 10%;
+    border: none;
+    font-size: large;
+    font-weight: bold;
+}
+#layer2-1, #layer3-1{
+    height: 7%;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2%;
+}
+
+#layer2-1 input, #layer3-1 input{
+    width: 60%;
+    height: 100%;
+}
+#layer2-1 label,#layer3-1 label{
+    text-align: center;
+    width: 20%;
+}
+#signupbtn:active, #loginbtn:active{
+    color: white;
+    background-color: black;
+}
+#msg{
+    text-align: center;
+}
+#layer2-2{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
